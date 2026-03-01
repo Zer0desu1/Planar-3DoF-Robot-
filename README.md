@@ -7,17 +7,12 @@ Bu proje, 3 Serbestlik Derecesine (3-DoF) sahip bir RRR Planar (Düzlemsel) Robo
 - **Robot Seçimi**: RRR Planar Kol. (Tabandan 2D düzlemde hareket eden 3 adet döner mafsal içeren sistem).
 - **İleri Kinematik (FK)**: Standart Denavit-Hartenberg (DH) yöntemine göre hesaplanmış Dönüşüm Matrisleri.
 - **Ters Kinematik (IK)**: Analitik kosinüs teoremi ile iteratif olmayan matematiksel çözüm.
-- **Çalışma Alanı Görselleştirme**: Robotun mafsal limitleri dahilinde ulaşabileceği tüm XYZ noktalarının Matplotlib ile projeksiyonu (Point Cloud).
+- **Çalışma Alanı Görselleştirme**: Robotun mafsal limitleri dahilinde ulaşabileceği tüm XYZ noktalarının Matplotlib ile projeksiyonu .
 - **Simülasyon Animasyonu**: Belirlenen hedef noktaya (0.8, 0.2, 0.1) ulaşmak için robot kolunun hareketinin mekanik GIF animasyonu. 
 
 *Not: Hedef Z=0.1 için, taban d1=0.1 offseti ile düzlemsel hareketin 0.1 yüksekliğinde gerçekleşmesi sağlanmıştır.*
 
-## Kullanılan Teknolojiler
 
-- Python 3
-- NumPy `pip install numpy`
-- Matplotlib `pip install matplotlib`
-- Pillow `pip install pillow` (GIF kaydetmek için)
 
 ## Çalıştırma Talimatları
 
